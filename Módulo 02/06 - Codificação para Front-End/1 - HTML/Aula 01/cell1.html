@@ -1,25 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CellPrime</title>
 </head>
+
 <body>
-    <h1><img src="pizass/cell.jpg" alt="CellPrime" width="300px" height="200px"></h1>
+    <input type="color" onchange="alterarCor()" />
+    <script>
+        seletor = document.querySelector("input");
+        alterarCor();
+        function alterarCor() {
+            document.body.style.backgroundColor = seletor.value;
+        }
+
+
+    </script>
+    
+
+    <img src="pizass/cell.jpg" alt="CellPrime" width="300px" height="200px">
 
     <H2 style="text-align: center;"; style="font-family:Times New Roman">Cell Prime sua melhor revendedora e assistencia tec. cell do Brasil</H2>
 
     <p><a href="cell2.html"><b><i>CLIQUE AQUI PRA MAIS OFERTAS</i></b> </a></p>
 
     <img src="pizass/images.jpg" alt="cellular via satelite" width="350px" height="200px">
+
     <p><b>Celular via satelite, bom e pratico,você nao fica sem sinal sem ele</b></p>
     <p style="font-size: large ;"><mark>De R$ 400,00</mark></p>
 
     <a href="cell3.html"><img src="pizass/download.jpg" alt="Nokia 1100" width="350px" height="200px"></a>
     <p><b> Nikia 1100, o laterninha que marcou gerações</b></p>
     <p style="font-size: large ;"><mark>De R$ 450,00</mark></p>
-
 
 
 </body>
