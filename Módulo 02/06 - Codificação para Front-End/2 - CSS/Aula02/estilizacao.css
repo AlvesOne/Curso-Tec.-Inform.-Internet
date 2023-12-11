@@ -1,0 +1,13 @@
+h1{
+    color: blue;
+    border: 3px solid greenyellow;
+    text-align: center;
+    font-size: 80px;
+}
+
+p{
+    color: brown;
+    text-align: center;
+    font-size: 30px;
+    padding: top 10px left 7px bottom 8px right 3px;
+}
