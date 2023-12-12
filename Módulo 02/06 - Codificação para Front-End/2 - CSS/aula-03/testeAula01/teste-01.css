@@ -1,0 +1,16 @@
+.list-pai{
+    display: flex;
+    width: auto;
+    border: 1px solid #000;
+    column-gap: 20px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+}
+
+.list{
+    border: 2px solid green;
+    width: fit-content;
+    text-align:right;
+}
