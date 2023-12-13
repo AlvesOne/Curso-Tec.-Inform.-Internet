@@ -1,0 +1,43 @@
+html{
+    background-color:aliceblue;
+    height: 100%;/*define que altura da pagina vai ser a altura do munitor*/
+}
+
+body{
+    margin: 0px;
+    justify-content: space-between;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.NAV{
+    background-color: rgb(94, 90, 90);
+}
+
+.NAV-list{
+    display: flex; /* deixa os elemontos da div pai flexiveis*/
+    list-style:none;/*tirar decoração da lista*/
+    color: white;/* altera a cor da fonte*/
+    padding: 10px 0px;/*coloca espaçamento cima-baixo*/
+    margin: 0px;/*tira espaçamento nas laterais margens*/
+    justify-content:space-around;/*define espaçamento entre as palavras*/
+    font-size: 20px;/*define o tamanho da fonte*/
+    font-weight: bold;/*almenta a espeçura da fonte*/
+
+}
+.NAV-list-item{
+
+}
+
+.Titulo-site{
+    text-align: center; /*centraliza o texto da pagina*/
+}
+
+footer{
+    background-color: rgb(94, 90, 90);
+    text-align: center;
+    color:white;
+    padding: 10px 0px;
+
+}
