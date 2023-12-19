@@ -1,4 +1,20 @@
 
+
+.NAV{
+    background-color: rgb(194, 191, 191);
+}
+
+.NAV-list{
+    display: flex; 
+    list-style:none;
+    color: rgb(8, 8, 8);
+    padding: 10px 0px;
+    margin: 0px;
+    justify-content:space-around;
+    font-size: 20px;
+    font-weight: bold;
+
+}
 html{
     background-color:rgb(176, 204, 188);
     height: 100%;
@@ -27,7 +43,6 @@ body{
     font-weight: bold;
 
 }
-
 .list-pai{
     display: flex;
     width: auto;

@@ -1,0 +1,63 @@
+body{
+    font-size: Arial, helvetica, sans-serif;
+    background-image: linear-gradient(45deg, cyan, yellow,);
+}
+div{
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: #ffff;
+    justify-content:space-around;
+    margin: 10px;
+}
+input{
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+button{
+    background-color: dodgerblue;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+}
+button:hover{
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+html{
+    background-color:rgb(176, 204, 188);
+    height: 100%;
+}
+
+body{
+    margin: 0px;
+    justify-content: space-between;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.NAV{
+    background-color: rgb(194, 191, 191);
+}
+
+.NAV-list{
+    display: flex; 
+    list-style:none;
+    color: rgb(8, 8, 8);
+    padding: 10px 0px;
+    margin: 0px;
+    justify-content:space-around;
+    font-size: 20px;
+    font-weight: bold;
+
+}

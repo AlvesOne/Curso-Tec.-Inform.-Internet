@@ -27,20 +27,7 @@ body{
     font-weight: bold;
 
 }
-
-.list-pai{
-    display: flex;
-    width: auto;
-    border: 1px solid #000;
-    column-gap: 20px;
-    row-gap: 20px;
-    flex-wrap: wrap;
-    padding: 20px;
-    justify-content: center;
-}
-
-.list{
-    border: 3px solid black;
-    width: fit-content;
-    text-align:center;
+p{
+text-align: center;
+padding:50px;
 }
